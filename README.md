@@ -20,3 +20,9 @@ python3 -m venv venv
 source venv/bin/activate
 pip install flask psutil matplotlib
 python app.py
+
+## 🐳 Run with Docker (optional)
+
+```bash
+docker build -t smart-dashboard .
+docker run -p 5000:5000 smart-dashboard
